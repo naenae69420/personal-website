@@ -1,5 +1,4 @@
 body {
-    height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -40,7 +39,7 @@ body {
 }
 
 .right {
-    margin: 16px;
+    margin:
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,6 +94,7 @@ img {
 }
 
 .quote {
+    height: 360px;
     background: #b1bcca;
     display: flex;
     flex-direction: column;
@@ -104,14 +104,14 @@ img {
 }
 
 .quote-textOne {
-    font-size: 32px;
+    font-size: 48px;
     font-style: italic;
 }
 
 .quote-textTwo {
     align-self: flex-end;
-    font-size: 16px;
-    margin-right: 200px;
+    font-size: 28px;
+    margin-right: 50px;
     font-weight: bold;
 }
 

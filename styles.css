@@ -12,10 +12,26 @@ body {
 .header {
     background: #1F2937;
     color: white;
-    display: flex;
     padding: 16px;
+    height: 360px;
+}
+
+.upper-header {
+    display: flex;
     justify-content: space-around;
-    height: 256px;
+}
+
+.lower-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    width: 512px;
+    font-size: 32px;
 }
 
 .links {
@@ -23,6 +39,24 @@ body {
     gap: 16px;
 }
 
+.right {
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.under-text {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+button {
+    background: #4e7fd4;
+    color: white;
+    width: 96px;
+    height: 24px;
+}
 
 .container {
     display: flex;
@@ -39,6 +73,7 @@ body {
 
 .container .title {
     font-size: 64px;
+    font-weight: bold;
 }
 
 .info {
@@ -60,11 +95,32 @@ img {
 }
 
 .quote {
-    height: 256px;
-    background: #aab9cf;
+    background: #b1bcca;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.quote-textOne {
+    font-size: 32px;
+    font-style: italic;
+}
+
+.quote-textTwo {
+    align-self: flex-end;
+    font-size: 16px;
+    margin-right: 200px;
+    font-weight: bold;
 }
 
 .footer {
     height: 48px;
-    background-color: aliceblue;
+    background-color:#1F2937;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
 }
